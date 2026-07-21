@@ -34,5 +34,7 @@ jobs:
           branch: gh-pages
           folder: boob
           commit-message: Deploy
+          git-config-name: github-actions[bot]
+          git-config-email: github-actions[bot]@users.noreply.github.com
           single-commit: true
           target-folder: '.'
